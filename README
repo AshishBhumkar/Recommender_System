@@ -1,0 +1,29 @@
+-----------------------------------------------------------------
+Name  :    Ashish Bhumkar
+Email :    abhumka1@binghamton.edu
+Course:    CS535-02_FALL15- Introduction To Data Mining-FALL15
+
+-----------------------------------------------------------------
+Features and Algorithms:
+1. I used User-Based Collaborative Filtering technique. It uses user-based similarity to predict the user rating. I compute user similarity using Pearson's Correlation Coefficient algorithm and then calculate weighted sum to predict final user rating.
+2. User based similarity gives better performace and quality due to number of less number compare to items.
+3. I have used treashold as 0.2 to collect the users with similar taste and store it in HashMap in order to compute the final rating.
+
+-----------------------------------------------------------------
+Environment and platform:
+This project requires java with version 1.7 or above.
+
+-----------------------------------------------------------------
+Compile and run:
+1. Go to the project directory.
+2. To compile: 
+       javac *.java
+3. To run:
+	  java RecommenderSystem
+
+-----------------------------------------------------------------
+References:
+1. J. Breese, D.. Heckerman, and C. Kadie, Empirical analysis of predictive algorithms for collaborative filtering, Proc. Conf. Uncertainty in Artificial Intelligence, (UAI98) 1998
+2.https://en.wikipedia.org/wiki/Collaborative_filtering
+3.http://grouplens.org/datasets/movielens/100k/
+4.http://www.cs.carleton.edu/cs_comps/0607/recommend/recommender/modelbased.html
